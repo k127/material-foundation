@@ -30,7 +30,11 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     color: $black-26;
     position: relative;
     top: -35px;
-    transition: top .45s ease-in-out, color .45s ease-in-out, font-size .45s ease-in-out;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+    transition-duration: 0.2s;
+    transition-property: top, color, font-size;
+    pointer-events: none;
+    //transition: top .2s ease-in-out, color .2s ease-in-out, font-size .2s ease-in-out;
     height: 0;
     cursor: text;
   }
