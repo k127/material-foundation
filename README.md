@@ -14,7 +14,7 @@ Material Design version of Foundation for Sites by Zurb
 You'll need to have the following items installed before continuing.
 
   * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
-  * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
+  * [Webpack](https://webpack.github.io/): Run `[sudo] npm install -g webpack`
 
 ## Quickstart
 
@@ -24,15 +24,9 @@ cd material-foundation
 npm install
 ```
 
-While you're working on your project, run:
+Too compile to css run:
 
-`grunt watch`
-
-to make grunt watch and compile all your CSS and javascript, or run:
-
-`grunt`
-
-to compile files manually
+`webpack`
 
 ## Directory Structure
 
