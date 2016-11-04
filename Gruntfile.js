@@ -20,9 +20,9 @@ module.exports = function(grunt) {
       my_target: {
         files: {
           'js/material-foundation.js': [
-            'bower_components/what-input/what-input.js',
-            'bower_components/jquery/dist/jquery.js',
-            'bower_components/foundation-sites/dist/foundation.js',
+            'node_modules/what-input/what-input.js',
+            'node_modules/jquery/dist/jquery.js',
+            'node_modules/foundation-sites/dist/foundation.js',
             'js/src/ripple.js',
             'js/src/switches.js',
             'js/src/material-foundation.js'
@@ -47,7 +47,7 @@ module.exports = function(grunt) {
       },
     },
   });
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.registerTask('default', ['sass','uglify']);
