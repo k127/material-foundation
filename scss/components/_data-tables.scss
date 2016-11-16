@@ -1,11 +1,11 @@
 // Reference:
 // http://www.google.com/design/spec/components/data-tables.html
 
-$table-stripe: false;
-$table-head-background: $white;
-$table-border: 0;
-$table-padding: rem-calc(15);
-$table-stripe: false;
+$table-stripe: false !default;
+$table-head-background: $white !default;
+$table-border: 0 !default;
+$table-padding: rem-calc(15) !default;
+$table-stripe: false !default;
 
 @include foundation-table;
 
@@ -19,15 +19,13 @@ table {
   }
 }
 thead, tr {
-  border-bottom: 1px solid $grey-300;
+  border-bottom: #{$table-border};
 }
 thead tr {
   @extend .text-body-2;
-  color: $black-54;
 }
 tr {
   @extend .text-body-1;
-  color: $black-87;
   &:last-child {
     border-bottom: 0;
   }
