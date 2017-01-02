@@ -1,5 +1,4 @@
-Material Foundation
-===================
+# Material Foundation
 
 ![Material Foundation](https://github.com/d0whc3r/material-foundation/raw/master/images/cover.png?raw=true)
 
