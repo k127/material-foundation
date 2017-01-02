@@ -3,8 +3,16 @@
   "version": "0.0.4",
   "repository": {
     "type": "git",
-    "url": "https://github.com/d0whc3r/material-foundation.git"
+    "url": "git+https://github.com/d0whc3r/material-foundation.git"
   },
+  "description": "Material design for foundation css framework",
+  "keywords": [
+    "material-design",
+    "material",
+    "design",
+    "foundation",
+    "zerb"
+  ],
   "main": "dist/js/material-foundation.js",
   "dependencies": {
     "foundation-sites": "^6.3.0",
@@ -24,6 +32,11 @@
     }
   ],
   "scripts": {
-    "start": "grunt"
+    "start": "grunt",
+    "release": "grunt release:patch && npm start"
+  },
+  "engines": {
+    "node": ">=4.0",
+    "npm": ">=2.14.2"
   }
 }
