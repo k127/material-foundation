@@ -1,6 +1,6 @@
 {
   "name": "material-foundation",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/d0whc3r/material-foundation.git"
@@ -14,10 +14,6 @@
     "zerb"
   ],
   "main": "dist/js/material-foundation.js",
-  "dependencies": {
-    "foundation-sites": "^6.3.0",
-    "material-design-iconic-font": "^2.2.0"
-  },
   "dependencies": {
     "foundation-sites": "^6.2.4",
     "material-design-iconic-font": "^2.2.0"
