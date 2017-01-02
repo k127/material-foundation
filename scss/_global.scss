@@ -114,8 +114,8 @@ $warning-color: map-get($foundation-palette, warning);
 $alert-color: map-get($foundation-palette, alert);
 
 // Remove this in 6.3
-$-zf-menu-icon-imported: false;
-$-zf-flex-classes-imported: false;
+//$-zf-menu-icon-imported: false;
+//$-zf-flex-classes-imported: false;
 
 @mixin foundation-global-styles {
   @include -zf-normalize;

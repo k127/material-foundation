@@ -1,13 +1,13 @@
 Material Foundation
 ===================
 
-![Material Foundation](https://github.com/eucalyptuss/material-foundation/raw/master/images/cover.png?raw=true)
+![Material Foundation](https://github.com/d0whc3r/material-foundation/raw/master/images/cover.png?raw=true)
 
 Material Design version of Foundation for Sites by Zurb
 
-**Supported Foundation Version**: 6.2.3
+**Supported Foundation Version**: 6.3.0
 
-**Demo**: [http://eucalyptuss.github.io/material-foundation/](http://eucalyptuss.github.io/material-foundation/)
+**Demo**: [http://d0whc3r.github.io/material-foundation/](http://d0whc3r.github.io/material-foundation/)
 
 ## Requirements
 
@@ -15,14 +15,13 @@ You'll need to have the following items installed before continuing.
 
   * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
   * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
-  * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
 
 ## Quickstart
 
 ```bash
-git clone https://github.com/eucalyptuss/material-foundation.git
+git clone https://github.com/d0whc3r/material-foundation.git
 cd material-foundation
-npm install && bower install
+npm install
 ```
 
 While you're working on your project, run:
@@ -58,4 +57,4 @@ To use Material Foundation with an existing Foundation project you can simply re
 
 However, due to the differences between Foundation and Material Design Guidelines, some of the Material Foundation components are not based on the original Foundation's markup. To use them in your project you have to use the Material Foundation specific classes, e.g. `floating-action-button` to use a Floating Action Button.
 
-To view how the original Foundation components behave with the Material Foundation styles check the [Kitchen Sink]((http://eucalyptuss.github.io/material-foundation/kitchen-sink.html)) on the Material Foundation website.
+To view how the original Foundation components behave with the Material Foundation styles check the [Kitchen Sink]((http://d0whc3r.github.io/material-foundation/kitchen-sink.html)) on the Material Foundation website.

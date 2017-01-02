@@ -16,4 +16,7 @@ $callout-border: 0;
   .text-caption {
     color: $black-26;
   }
+  &> :last-child {
+    margin-bottom: inherit;
+  }
 }
