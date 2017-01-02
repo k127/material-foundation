@@ -1,14 +1,11 @@
 {
   "name": "material-foundation",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/d0whc3r/material-foundation.git"
   },
-  "main": [
-    "scss/material-foundation.scss",
-    "dist/js/material-foundation.js"
-  ],
+  "main": "dist/js/material-foundation.js",
   "dependencies": {
     "foundation-sites": "^6.3.0",
     "material-design-iconic-font": "^2.2.0"
@@ -17,7 +14,8 @@
     "grunt": "^1.0.1",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^2.0.0",
-    "grunt-contrib-watch": "^1.0.0"
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-release": "^0.14.0"
   },
   "licenses": [
     {
