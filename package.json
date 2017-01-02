@@ -18,6 +18,10 @@
     "foundation-sites": "^6.3.0",
     "material-design-iconic-font": "^2.2.0"
   },
+  "dependencies": {
+    "foundation-sites": "^6.2.4",
+    "material-design-iconic-font": "^2.2.0"
+  },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-sass": "^1.0.0",
