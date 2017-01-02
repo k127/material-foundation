@@ -21,7 +21,7 @@ $button-padding: 0.85em 1em 0.7em 1em;
 .raised-accent-button, .floating-action-accent-button {
   @include button($background: $secondary-color, $background-hover: scale-color($secondary-color, $lightness: -5%), $color: $black-87);
   &,&:hover {
-    color: $black-87;
+    color: $white-87;
   }
 }
 .raised-button, .floating-action-button, .raised-accent-button, .floating-action-accent-button {
@@ -46,7 +46,7 @@ $button-padding: 0.85em 1em 0.7em 1em;
   color: white;
 }
 .floating-action-accent-button i {
-  color: $black-87;
+  color: $white-87;
 }
 .flat-button {
   @include button($background: transparent, $background-hover: rgba(#999, .2), $color: $primary-color);

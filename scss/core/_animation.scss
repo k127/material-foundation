@@ -22,8 +22,8 @@
   background: $secondary-color;
 }
 .ripple.show, .ripple-color.show  {
-  -webkit-animation: ripple .75s ease-out;
-          animation: ripple .75s ease-out;
+  -webkit-animation: ripple .35s ease-out;
+          animation: ripple .35s ease-out;
 }
 @-webkit-keyframes ripple {
   to {
